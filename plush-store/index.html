@@ -1,0 +1,102 @@
+<html lang="ru">
+
+<head>
+            <meta charset="UTF-8">
+            <link href="style.css" rel="stylesheet">
+            <meta name="keywords" content="PLUSH STORE, Плюшевые игрушки">
+            <meta name="description" content="Плюшевые игрушки">
+            <meta name="author" content="Седашова Кира">
+            <title>Игрушки PLUSH STORE</title>
+
+</head>
+
+<body background="ProjectImage/background.jpg" >
+<header>
+<a name='top'><h1> PLUSH STORE </h1></a>
+<div class="about-block">
+<p> Добро пожаловать в магазин <b>Plush store</b>.</p>
+<p> Здесь вы можете купить качественный и милые плюшевые игрушки.</p>
+<p><b> Самые лучшие в вашем городе!</b></p>
+</div>
+<hr>
+<div class="buttons">
+  <button class="button-st" id="show-favorites-btn">Показать избранное</button>
+  <button class="button-st" id="show-toy">Показать популярные</button>
+  <button class="button-st" id="show-other">Показать остальное</button>
+</div>
+<div class = "slider">
+          <input type="range" min="500" max="5000" value="500" id="priceSlider">
+          <p>Цена: <span id="priceValue">990</span></p>
+      </div>
+</header>
+
+<main>
+  <section>
+<br>
+<div class="products">
+<div class="product" data-favorite="false" data-toy="true" data-other="false" data-price='700'>
+<img class="image-toy" src="ProjectImage/toy-1.png" width="20%" alt="Игрушка Енот" >
+<h1> Мягкая игрушка "Енот"</h1>
+<h2> Цена: 1800 рублей </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-toy="true" data-other="false" data-price='560'>
+<img class="image-toy" src="ProjectImage/toy-2.png" width="20%" alt="Игрушка Кролик">
+<h1> Мягкая игрушка "Кролик"</h1>
+<h2> Цена: 1660 рублей </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-toy="false" data-other="true" data-price='1000'>
+<img class="image-toy" src="ProjectImage/toy-3.png" width="20%" alt="Игрушка Белый мишка">
+<h1> Мягкая игрушка "Белый мишка"</h1>
+<h2> Цена: 2000 рублей </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-toy="false" data-other="true" data-price='1000'>
+<img class="image-toy" src="ProjectImage/toy-4.png" width="20%" alt="Игрушка Бурый мишка">
+<h1> Мягкая игрушка "Бурый мишка"</h1>
+<h2> Цена: 1200 рублей </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-toy="false" data-other="true" data-price='1400'>
+<img class="image-toy" src="ProjectImage/toy-5.png" width="20%" alt="Игрушка Котик">
+<h1> Мягкая игрушка "Котик"</h1>
+<h2> Цена: 1150 рублей </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-toy="false" data-other="true">
+<img class="image-toy" src="ProjectImage/toy-6.png" width="20%" alt="Игрушка Зайка">
+<h1> Мягкая игрушка "Зайка"</h1>
+<h2> Цена: 990 рублей </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-toy="false" data-other="true">
+  <img class="image-toy" src="ProjectImage/toy-7.png" width="20%" alt="Игрушка Котик в свитере">
+  <h1> Мягкая игрушка "Котик в свитере"</h1>
+  <h2> Цена: 1450 рублей </h2>
+  <button class="favorite-btn" type="button">&#9825;</button>
+  </div>
+</div>
+</main>
+<footer>
+  <hr>
+  <section>
+  <p class="cent"> Все права защищены KiraSedashova &#169;</p>
+  <br>
+</section>
+<section class='inform'>
+  <h3> Контактная информация:</h3>
+  <a href='mailto:sedashova44@gmail.com'>sedashova44@gmail.com</a>
+  <br>
+  <a href='tel:+79632855513'>Тел. +79632855513</a>
+  <br>
+</section>
+<section>
+  <a href='#top'><p text-align='left'> Наверх</p></a>
+</section>
+</footer>
+
+<script src="script.js"></script>
+<script src="script-slider.js"></script>
+</body>
+</html>
