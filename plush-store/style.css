@@ -54,22 +54,25 @@ h3{
   color:white;
 }
 .products {
+ 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .product {
+    background-color:rgb(237, 229, 248);
     display: flex;
+    border-radius: 10%;
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    width: 200px;
+    width: 300px;
 }
 
 .product img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 10px;
 }
 
@@ -97,7 +100,6 @@ h3{
     display: flex;
 }
 .image-toy{
-  border-radius: 20%;
   display: flex;
   justify-content: center;
 }
